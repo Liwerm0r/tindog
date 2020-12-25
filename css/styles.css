@@ -23,6 +23,9 @@ p {
   color: #8f8f8f;
 }
 
+a {
+  color: #000;
+}
 .container-fluid {
   padding: 3% 15% 7%;
 }
@@ -130,9 +133,36 @@ p {
   padding: 3% 2%;
 }
 
+ /* Call to action Section */
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer section */
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.footer-icon {
+  padding: 20px 10px;
+}
+
 @media (max-width: 1028px) {
 
-  #title {
+  .title-container {
     text-align: center;
   }
 
@@ -141,32 +171,3 @@ p {
     transform: rotate(0);
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* add extra space at the end of file */
